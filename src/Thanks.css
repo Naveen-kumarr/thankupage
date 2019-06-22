@@ -1,0 +1,67 @@
+.backgroundd
+{
+background-color:#117ABF;
+}
+.custombutton
+{
+	background-color:#117ABF;
+}
+.custombody
+{
+	padding-top:100px;
+}
+@media only screen and (min-width:768px)
+{
+.time
+{
+	font-size:4rem!important;
+	font-weight:100!important;
+}
+}
+.iimage
+{
+
+	width:100%;
+}
+@media only screen and (max-width:767px)
+{
+.time
+{
+	font-size:2rem!important;
+	font-weight:100!important;
+}
+}
+.parent
+{
+	position:relative;
+	height:100vh;
+}
+.child
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	
+	transform: translate(-50%,-50%); 
+}
+@media only screen and (min-width:767px)
+{
+	.child
+	{
+			width: 70%;
+	}
+}
+@media only screen and (min-width:768px)
+{
+.modifiedrow
+{
+	padding-left:3rem;
+	padding-right:3rem;
+}
+}
+@media only screen and (max-width:767px){
+.mobilehide
+{
+	display:none;
+}
+}
