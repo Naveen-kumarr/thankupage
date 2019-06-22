@@ -24,15 +24,15 @@ export default class Contact extends Component {
 		<div className="parent">
 		<div className="child">
 		<div className="">
-		<div class="card">
-  <h5 class="card-header">Thank You!</h5>
-  <div class="card-body custombody">
+		<div className="card">
+  <h5 className="card-header">Thank You!</h5>
+  <div className="card-body custombody">
    <div className="row modifiedrow">
    <div className="col-md-6 col-sm-12">
 	<h1 className="time">{this.state.time}</h1>
 	<h3 style={{fontWeight:"700"}}>Congratulations,Broker account created</h3>
-	<p class="card-text py-3">Check your emailfor a verification link.After verifying your email only you can log in to your broker account.</p>
-    <a href="#" class="btn btn-primary custombutton">Go to Brokerage</a>
+	<p className="card-text py-3">Check your emailfor a verification link.After verifying your email only you can log in to your broker account.</p>
+    <a href="#" className="btn btn-primary custombutton">Go to Brokerage</a>
 	</div>
 	<div className="col-md-6 col-sm-12 mobilehide">
 	<img src={Image} className="iimage"/>
